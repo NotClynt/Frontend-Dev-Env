@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/script/main.js"],
+  "sourcesContent": ["// create current date and time\r\nvar d = new Date();\r\nvar date = d.getDate();\r\nvar month = d.getMonth() + 1;\r\nvar year = d.getFullYear();\r\nvar hours = d.getHours();\r\nvar minutes = d.getMinutes();\r\nvar seconds = d.getSeconds();\r\nvar time =\r\n  date +\r\n  \"/\" +\r\n  month +\r\n  \"/\" +\r\n  year +\r\n  \" \" +\r\n  hours +\r\n  \":\" +\r\n  minutes +\r\n  \":\" +\r\n  seconds;\r\n// print on website\r\ndocument.getElementById(\"date\").innerHTML = time;"],
+  "mappings": "MACA,GAAI,GAAI,GAAI,MACR,EAAO,EAAE,UACT,EAAQ,EAAE,WAAa,EACvB,EAAO,EAAE,cACT,EAAQ,EAAE,WACV,EAAU,EAAE,aACZ,EAAU,EAAE,aACZ,EACF,EACA,IACA,EACA,IACA,EACA,IACA,EACA,IACA,EACA,IACA,EAEF,SAAS,eAAe,QAAQ,UAAY",
+  "names": []
+}
