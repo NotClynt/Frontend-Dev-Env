@@ -27,4 +27,4 @@ Or open a issue to suggest a function
 5. Open a Pull Request
 
 
-[⬆ Slide up ya](#Frontend-Dev-Env)<br>
+[⬆ Slide up](#dev-env)<br>
