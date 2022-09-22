@@ -20,3 +20,9 @@ var time =
   seconds;
 // print on website
 document.getElementById("date").innerHTML = time;
+
+
+// refresh elementid every 1 second
+setInterval(function () {
+  document.getElementById("date").innerHTML = time;
+}, 1000);
